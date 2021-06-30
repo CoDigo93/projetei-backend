@@ -20,7 +20,7 @@ app.use(router)
 
 db.sync().then(()=>{
     
-    app.listen(process.env.PORT || PORT, ()=> {
+    app.listen(process.env.PORT || 3333, ()=> {
     console.log(`server is running`)
     })
 }).catch(err => console.log(err))
