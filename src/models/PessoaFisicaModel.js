@@ -1,10 +1,10 @@
     const{DataTypes} = require('sequelize')
-    const uuid = require('uuid/dist/v4')
+    
 
     
 
     const database = require('../database/db')
-    //const db = require('.')
+    
     
     const PessoaFisica = database.define('teste', {
         id:{
